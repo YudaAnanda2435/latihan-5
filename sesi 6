@@ -1,0 +1,257 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPA3Ad9pfU/msJQO/fZFJdO",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/YudaAnanda2435/latihan-5/blob/main/sesi%206\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 5,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TsJWTbkcyuNu",
+        "outputId": "bc0b699f-dc8f-4d02-abf4-5a1885ab92a0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "===program nilai===\n",
+            "masukan nilai: 70\n",
+            "tetap semanngat demi masa depan with ayang\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"===program nilai===\")\n",
+        "nilai = int(input(\"masukan nilai: \"))\n",
+        "\n",
+        "if nilai >=80:\n",
+        "  print(\"selamat anda lulus!\")\n",
+        "\n",
+        "print(\"tetap semanngat demi masa depan with ayang\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"=====Login=====\")\n",
+        "password = input(\"masukkan password: \")\n",
+        "if password == \"Dasar pemerograman\":\n",
+        "  print(\"selamat datang di aplikasi\")\n",
+        "else:\n",
+        "  printy(\"pasword salah, silahkan coba lagi\")\n",
+        "\n",
+        "print(\"syukron ya akhy or ukhty\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YBYIcgDh4Flv",
+        "outputId": "7239207b-6574-41cc-b94c-a90bfb57d6fc"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "=====Login=====\n",
+            "masukkan password: Dasar pemerograman\n",
+            "selamat datang di aplikasi\n",
+            "syukron ya akhy or ukhty\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"=====Program Grade Nilai=====\")\n",
+        "nilai = int(input(\"input nilai akhir: \"))\n",
+        "if nilai >=90:\n",
+        "  grade = \"A\"\n",
+        "elif nilai >=80:\n",
+        "  grade = \"B+\"\n",
+        "elif nilai >=70:\n",
+        "  grade = \"B\"\n",
+        "elif nilai >=60:\n",
+        "  grade = \"C+\"\n",
+        "elif nilaim>=50:\n",
+        "  grade = \"C\"\n",
+        "elif nilai >=40:\n",
+        "  grade = \"D\"\n",
+        "elif nilai >=30:\n",
+        "  grade = \"E\"\n",
+        "else:\n",
+        "  grade = \"F\"\n",
+        "print (\"Grade anda:\",grade)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-0FFuSlf59uN",
+        "outputId": "89c58772-5c4d-4572-e132-6a612756dd0f"
+      },
+      "execution_count": 53,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "=====Program Grade Nilai=====\n",
+            "input nilai akhir: 70\n",
+            "Grade anda: B\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#menentukan ganjil atau genap\n",
+        "bilangan = int(input(\"masukkan bilangan: \"))\n",
+        "\n",
+        "if bilangan % 2 == 0:\n",
+        "  print(\"adalah bilangan genap\")\n",
+        "else:\n",
+        "  print(\"adalah bilangan ganjil\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PN1G0YHJ8b0X",
+        "outputId": "328d6bef-e586-4284-bf40-d1e1a1e408bf"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "masukkan bilangan: 29\n",
+            "adalah bilangan ganjil\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nama = input(\"masukan nama anda: \")\n",
+        "gender = input(\"jenis kelamin anda: \")\n",
+        "if gender == \"laki-laki\" :\n",
+        "  print(\"hai neng\")\n",
+        "\n",
+        "else:\n",
+        "  print(\"hai bang\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pbEvt3df-XaA",
+        "outputId": "20d286ee-5b2d-45c3-a555-870e72908207"
+      },
+      "execution_count": 54,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "masukan nama anda: Yuda\n",
+            "jenis kelamin anda: laki-laki\n",
+            "hai neng\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nama = input(\"masukkan nama: \")\n",
+        "tahun = int(input(\"masukkan generasi: \"))\n",
+        "\n",
+        "if tahun >=1964 and tahun <=1970:\n",
+        "  umur = \"tua banget\"\n",
+        "elif tahun >=1971 and tahun <=1980:\n",
+        "  umur = \"tua\"\n",
+        "elif tahun >=1981 and tahun <=1990:\n",
+        "   umur = \"agak muda\"\n",
+        "elif tahun >=1991 and tahun <=2000:\n",
+        "    umur = \"remaja\"\n",
+        "else:\n",
+        "  umur = \"tungul\"\n",
+        "print (f' {nama}, berdasarkan kelahiran anda merupakan umur {umur}')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mUyM_Nj2EkTW",
+        "outputId": "adb36118-547a-4420-ddf2-3dbf0ba53100"
+      },
+      "execution_count": 79,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "masukkan nama: Yuda\n",
+            "masukkan generasi: 2000\n",
+            " Yuda, berdasarkan kelahiran anda merupakan umur remaja\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nama = input(\"masukkan nama: \")\n",
+        "tahun = int(input(\"masukkan generasi: \"))\n",
+        "\n",
+        "if tahun >=1964 and tahun <=1970:\n",
+        "  umur = \"tua banget\"\n",
+        "elif tahun >=1971 and tahun <=1980:\n",
+        "  umur = \"tua\"\n",
+        "elif tahun >=1981 and tahun <=1990:\n",
+        "   umur = \"agak muda\"\n",
+        "elif tahun >=1991 and tahun <=2000:\n",
+        "    umur = \"remaja\""
+      ],
+      "metadata": {
+        "id": "y30sRAmwQSMi"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
